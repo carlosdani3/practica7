@@ -27,8 +27,8 @@ body{
 .piePagina{
     width: 100%;
     height: 100px;
-    background: #1a1b17;
-    color: aqua;
+    background: #1a1b1b;
+    color: rgb(197, 114, 20);
     bottom: 0;
     position: fixed;
     left: 0;
@@ -50,7 +50,7 @@ li{
 }
 li a{
     display: block;
-    color: beige;
+    color: rgb(252, 187, 9);
     text-align: center;
     padding: 10px;
     text-decoration: none;
@@ -60,7 +60,7 @@ li a:hover{
 }
 #datos {
     width: 80%;
-    background-color: blue;
+    background-color: rgb(236, 71, 20);
     height: 600px;
     margin: auto;
     opacity: 1;

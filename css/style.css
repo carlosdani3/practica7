@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1a1b17;
+}
+.areaPrincipal{
+    background-image: url("../imaganes/taco1.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+#encabezado {
+    background: #128f70;
+    height: 240px;
+    text-align: center;
+    background-image: url("../imaganes/logo1.jpg");
+    background-repeat: no-repeat;
+    background-size: 180px 180px;
+}
+.piePagina{
+    width: 100%;
+    height: 100px;
+    background: #1a1b17;
+    color: aqua;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+}
+#menu{
+    height: 40px;
+    position: relative;
+    top: 200px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: beige;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: black;
+}
+#datos {
+    width: 80%;
+    background-color: blue;
+    height: 600px;
+    margin: auto;
+    opacity: 1;
+    color: black;
+    padding: 10px;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, geneva, verdana, sans-serif;
+}
